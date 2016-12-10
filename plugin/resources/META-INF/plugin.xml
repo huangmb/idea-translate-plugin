@@ -29,6 +29,16 @@
 
     <actions>
         <!-- Add your actions here -->
+        <group id="Hello" text="Translate" description="translate plugin">
+            <add-to-group group-id="MainMenu" anchor="last"/>
+            <action id="TranslatePlugin.TranslateAction"
+                    class="com.huangmb.idea.action.TranslateAction"
+                    text="Translate"
+                    description="toggle translate">
+                <keyboard-shortcut keymap="$default" first-keystroke="meta I"/>
+            </action>
+        </group>
+
     </actions>
 
 </idea-plugin>
