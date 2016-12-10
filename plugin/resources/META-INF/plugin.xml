@@ -1,0 +1,34 @@
+<idea-plugin version="2">
+    <id>com.huangmb.idea</id>
+    <name>Translate</name>
+    <version>1.0</version>
+    <vendor email="286931810@qq.com" url="http://www.yourcompany.com">bob</vendor>
+    <!--<vendor email="286931810@qq.com" url="http://www.yourcompany.com">bob</vendor>-->
+
+    <description><![CDATA[
+      一款支持IDEA和Android Studio的翻译插件，支持划译、光标取词和输入翻译，支持编辑器中弹窗翻译和单独的翻译窗口<br>
+    ]]></description>
+
+    <change-notes><![CDATA[
+      none
+    ]]>
+    </change-notes>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="141.0"/>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    <depends>com.intellij.modules.lang</depends>
+    -->
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+
+</idea-plugin>
